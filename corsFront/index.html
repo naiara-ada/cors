@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rick and Morty</title>
+</head>
+<body>
+    <header>
+        <h1>Rick and Morty</h1>
+        <div class="header">
+            <button id="getAllCharacters">Todos los personajes</button>
+            <div>
+                <label for="characterName">Nombre Personaje</label>
+                <input type="text" id="characterName" name="characterName">
+                <button id="getCharacter">Obtener personaje</button>
+            </div>
+        </div>
+    </header>
+    <div id="nextprevbuttons" class="nextprevbuttons hidden">
+        <div class="buttons" id="prevButton">Previus</div>
+        <div class="buttons" id="nextButton">Next</div>
+    </div>
+    <div id="characterInfo"></div>
+   
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
